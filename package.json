@@ -1,0 +1,23 @@
+{
+  "name": "al-roofing-leeds",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node node_modules/next/dist/bin/next dev",
+    "build": "node node_modules/next/dist/bin/next build",
+    "preview": "node scripts/serve-out.mjs",
+    "logo": "node scripts/build-logo.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.19",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "sharp": "0.34.5",
+    "typescript": "5.5.3"
+  }
+}
